@@ -23,7 +23,7 @@
     "make-prettier": "yarn run-prettier --write",
     "pm2start": "pm2 start dist/server.js",
     "pm2stop": "pm2 stop dist/server.js",
-    "one-button-init": "npm i pm2 -g && npm i && npm run build-ts && pm2 start dist/server.js",
+    "one-button-init": "npm i pm2 -g && npm i && npm run build-ts && pm2 start dist/server.js"
   },
   "author": "",
   "license": "ISC",
